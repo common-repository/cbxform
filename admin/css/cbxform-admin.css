@@ -1,0 +1,151 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.formitem{
+    width: auto !important;
+}
+.clearfix{
+    clear: both;
+}
+#cbxformmetabox_wrapper{
+
+}
+
+.cbxformmetabox_box{
+    float: left; display: inline-block;
+
+}
+.cbxformmetabox_box_field{
+    width: 100%;
+    padding: 0%;
+    outline: 1px solid #ccc;
+    margin-bottom: 10px;
+
+}
+.cbxformmetabox_box_form{
+    width: 99%;
+    padding: 1%;
+    outline: 1px solid #ccc;
+    /*margin-left: 2%;*/
+    overflow: hidden;
+
+}
+.cbxformmetabox_box_field .fielditem{
+    float: left; display: inline-block;
+    margin:0 8px 8px 0;
+    cursor: move !important;
+    min-width: 125px;
+    text-align: center;
+}
+.cbxformmetabox_box_form .formitem, .cbxformmetabox_box_form .formitem-placeholder, .cbxformmetabox_box_form .formitem.ui-sortable-helper{
+    border: 1px solid #dddddd;
+    padding: 3px 5px;
+    margin: 4px 0;
+    border-radius: 2px;
+    cursor: move;
+}
+.cbxformmetabox_box_form .formitem:hover{
+    background: #fff8e5;
+}
+
+.cbxformmetabox_box_form .formitem .formitemlabel{
+    min-height: 30px; line-height: 30px;
+}
+
+.cbxformmetabox_box_form .formitem-placeholder{
+    border: 1px dotted dodgerblue;
+}
+.cbxformmetabox_box_form .formitem.ui-sortable-helper{
+    border: 1px dotted red;
+}
+.cbxformmetabox_box_form .formitem .dashicons-post-trash, .cbxformmetabox_box_form .formitem .dashicons-menu, .cbxformmetabox_box_form .formitem .dashicons-admin-tools{
+    float: right; display: inline-block;
+    cursor: pointer !important;
+}
+
+.cbxformmetabox_box_field .formitem .formitem_inside_wrap{
+    display: none;
+}
+.cbxformmetabox_box_form .formitem .formitem_inside_wrap{
+    display: none;
+    width: 100%;
+
+}
+.cbxformmetabox_box_form .formitem .formitem_inside_wrap .formitem_inside{
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.cbxformmetabox_box_form .formitem .formitem_inside_wrap .formitem_inside p, .cbxformmetabox_box_form .formitem .formitem_inside_wrap .formitem_inside h3{
+    margin: 0 0 5px 0 !important;
+}
+
+.formitem_inside_wrap .formitem_inside .inputlabel{
+    float: left; display: inline-block;
+    width: 20%;
+    margin-bottom: 3px;
+}
+.formitem_inside_wrap .formitem_inside .inputcontrol{
+    float: left; display: inline-block;
+    width: 78%;
+    margin-left: 2%;
+    margin-bottom: 3px;
+}
+.formitem_inside_wrap .formitem_inside .inputlabel_required,.formitem_inside_wrap .formitem_inside .inputlabel_selectbox{
+    float: left; display: inline-block;
+    width: 20%;
+    margin-bottom: 3px;
+}
+.formitem_inside_wrap .formitem_inside .inputcontrol_required,formitem_inside_wrap .formitem_inside .inputcontrol_selectbox{
+    float: left; display: inline-block;
+    width: 78%;
+    margin-left: 2%;
+    margin-bottom: 3px;
+}
+
+.cbxformmetabox_box_field h3{
+    margin: 0 !important;
+    line-height: 25px !important;
+    font-size: 18px !important;
+    font-weight:bold;
+    padding: 3px 10px !important;
+    clear: both;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.cbxformmetabox_box_fields_section{
+    padding:10px  5px;
+    clear: both;
+}
+
+.optionitem{
+    margin-bottom: 3px;
+    background: #d5dde0;
+    padding: 3px;
+}
+.optionitemtrig{
+    font-size: 13px;
+    height: 13px; width: 13px;
+    line-height: 19px;
+    cursor: pointer !important;
+}
+.optionitemtrig-add{
+    color: green;
+}
+.optionitemtrig-remove{
+    color: red;
+}
+
+.cbxform_ajax_icon{
+    display: none;
+}
+/*.cbxhidden{
+    display: none !important;
+}*/
+#cbxform_open-iframe_modal {
+    margin-left: 8px;
+}

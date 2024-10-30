@@ -1,0 +1,347 @@
+.cbfformclearfix{
+  clear: both;
+}
+/*****Error*****/
+
+
+.cbxform-messages{
+  /*display: none;*/
+  font-weight: bold;
+
+}
+.cbxform-messages .cbxform-success{
+  color: #26A65B;
+  background: #dff0d8;
+  padding: 5px 10px;
+}
+
+.cbxform-messages .cbxform-error{
+  color: #a94442;
+  background: #f2dede;
+  padding: 5px 10px;
+}
+
+.cbxform .cbxform-info{
+  display: none;
+  background: #d9edf7;
+  color: #31708f;
+  padding: 5px 10px;
+}
+
+.cbxform-item-wrap p.error{
+  color: #a94442;
+  background: #f2dede;
+  padding: 5px 10px;
+}
+/***end Error****/
+
+.cbxform {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*Common Style*/
+  /*Common Style End*/
+}
+.cbxform *,
+.cbxform *:before,
+.cbxform *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.cbxform label {
+  display: inline-block;
+}
+.cbxform .cbxform-item-input input,
+.cbxform .cbxform-item-input textarea {
+  background-color: #dedede;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 1.42857;
+  padding: 12px 12px;
+}
+.cbxform .cbxform-item-input textarea {
+  height: 150px;
+}
+.cbxform .cbxform-item-field {
+  margin-bottom: 1.5rem;
+}
+.cbxform .cbx-btn input {
+  padding: 10px 3rem;
+}
+.cbxform .cbxform-item-field {
+  display: block;
+  overflow: hidden;
+}
+.cbxform .cbxform-item-field .cbxform-item {
+  float: left;
+}
+.cbxform .cbxform-item-field .cbxform-item-label {
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+.cbxform .cbxform-item-field .cbxform-item-input {
+  width: 100%;
+}
+.cbxform .cbxform-item-field .cbxform-item-input input,
+.cbxform .cbxform-item-field .cbxform-item-input textarea {
+  width: 100%;
+}
+.cbxform .cbxform-item-field input,
+.cbxform .cbxform-item-field textarea {
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.cbxform .cbxform-item-field .cbxform-item-input-radio {
+  width: 100%;
+}
+.cbxform .cbxform-item-field .cbxform-item-input-radio input,
+.cbxform .cbxform-item-field .cbxform-item-input-radio textarea {
+  display: inline-block;
+}
+.cbxform .cbxform-item-field .cbxform-item-input.cbxform-item-input-radio input,
+.cbxform .cbxform-item-field .cbxform-item-input.cbxform-item-input-radio textarea {
+  width: auto !important;
+}
+.cbxform .cbxform-item-field .cbxform-item-input.cbxform-item-input-radio input[type="radio"] {
+  height: auto;
+}
+.cbxform .cbxform-item-field .cbxform-item-input-checkbox {
+  width: 100%;
+}
+.cbxform .cbxform-item-field .cbxform-item-input-checkbox input,
+.cbxform .cbxform-item-field .cbxform-item-input-checkbox textarea {
+  display: inline-block;
+}
+.cbxform .cbxform-item-field .cbxform-item-input.cbxform-item-input-checkbox input,
+.cbxform .cbxform-item-field .cbxform-item-input.cbxform-item-input-checkbox textarea {
+  width: auto !important;
+}
+.cbxform .cbxform-item-field .cbxform-item-input.cbxform-item-input-checkbox input[type="checkbox"] {
+  height: auto;
+}
+.cbxform .cbxform-item-field .cbx-checkbox-lebel,
+.cbxform .cbxform-item-field .cbxform-item-input-radio-lebel {
+  width: 15%;
+  display: inline-block;
+}
+.cbxform .cbxform-item-field .cbxform-item-input-radio {
+  width: 83%;
+}
+.cbxform .cbxform-item-field .cbxform-item-input-radio input,
+.cbxform .cbxform-item-field .cbxform-item-input-radio textarea {
+  display: inline-block;
+}
+.cbxform .cbxform-item-field .cbx-checkbox {
+  width: 83%;
+}
+.cbxform .cbxform-item-field .cbx-checkbox input,
+.cbxform .cbxform-item-field .cbx-checkbox textarea {
+  display: inline-block;
+}
+.cbxform .cbxform-item-field .cbxform-item-wrap {
+  padding: 5px 10px;
+}
+.cbxform .cbxform-item-field .cbxcheckbox-item,
+.cbxform .cbxform-item-field .cbxradio-item {
+  display: inline-block;
+}
+.cbxform .cbxform-item-field input:focus,
+.cbxform .cbxform-item-field textarea:focus,
+.cbxform .cbxform-item-field keygen:focus,
+.cbxform .cbxform-item-field select:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.cbxform .cbxform-item-field input:focus,
+.cbxform .cbxform-item-field input:active,
+.cbxform .cbxform-item-field textarea:focus,
+.cbxform .cbxform-item-field textarea:active {
+  background: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.cbxform .cbxform-item-input-list .cbxcheckbox-item,
+.cbxform .cbxform-item-input-list .cbxradio-item {
+  display: block;
+}
+.cbxform .cbxform-action .cbx-btn input {
+  display: inline-block;
+  float: left;
+  margin: 0 5px;
+  border-width: 0;
+  border: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background: #26A65B;
+  color: #fff;
+}
+.cbxform .cbxform-action-center {
+  text-align: center;
+}
+.cbxform .cbxform-action-center .cbx-btn {
+  display: inline-block;
+  float: none;
+  margin: 0 10px;
+}
+/************cbxform-inline**********/
+.cbxform-inline .cbxform-item-field {
+  display: block;
+  overflow: hidden;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item {
+  float: left;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-label {
+  width: 15%;
+  text-align: right;
+  display: inline-block;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-label .cbxform-item-wrap {
+  padding: 5px 10px;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-input {
+  width: 85%;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-input input,
+.cbxform-inline .cbxform-item-field .cbxform-item-input textarea {
+  width: 100%;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-input .cbxform-item-wrap {
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+.cbxform-inline .cbxform-item-field input,
+.cbxform-inline .cbxform-item-field textarea {
+  display: block;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-input-radio {
+  width: 83%;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-input-radio input,
+.cbxform-inline .cbxform-item-field .cbxform-item-input-radio textarea {
+  display: inline-block;
+}
+.cbxform-inline .cbxform-item-field .cbxform-item-input-radio .cbxform-item-wrap {
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+.cbxform-inline .cbxform-item-field .cbx-checkbox {
+  width: 83%;
+}
+.cbxform-inline .cbxform-item-field .cbx-checkbox input,
+.cbxform-inline .cbxform-item-field .cbx-checkbox textarea {
+  display: inline-block;
+}
+.cbxform-inline .cbxform-item-field .cbx-checkbox .cbxform-item-wrap {
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+.cbxform .cbxform-action{
+  margin: 0 5px;
+}
+.cbxform-inline .cbxform-action .cbx-btn {
+  display: inline-block;
+  float: right;
+  margin: 0 10px;
+}
+.cbxform-inline .cbxform-action-center {
+  text-align: center;
+}
+.cbxform-inline .cbxform-action-center .cbx-btn {
+  display: inline-block;
+  float: none;
+  margin: 0 10px;
+}
+/************cbxform-inline end**********/
+.cbxform-line .cbxform-item-input input,
+.cbxform-line .cbxform-item-input textarea {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  height: 34px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.cbxform .cbxform-action .cbx-btn input {
+  padding: 13px 25px;
+}
+.cbxform-line .cbxform-item-input textarea {
+  height: 150px;
+  border: 1px solid #ccc;
+}
+.cbxform-placeholder .cbxform-item-label label {
+  display: none;
+}
+.cbxform-placeholder .cbx-checkbox-lebel label,
+.cbxform-placeholder .cbx-radio-lebel label,
+.cbxform-placeholder .cbx-radio-lebel1 label,
+.cbxform-placeholder .cbx-checkbox-lebel1 label {
+  display: block;
+}
+.cbxform-placeholder ::-webkit-input-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder :-moz-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder ::-moz-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder :-ms-input-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder textarea::-webkit-input-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder textarea:-moz-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder textarea::-moz-placeholder {
+  *color: #777;
+}
+.cbxform-placeholder textarea:-ms-input-placeholder {
+  *color: #777;
+}
+/*RESPONSIVE STYLE */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/************** 480 GLOBAl USE***********/
+@media (max-width: 480px) {
+  .cbxform-inline .cbxform-item-field .cbxform-item-label {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+  .cbxform-inline .cbxform-item-field .cbx-checkbox .cbxform-item-wrap,
+  .cbxform-inline .cbxform-item-field .cbx-radio .cbxform-item-wrap,
+  .cbxform-inline .cbxform-item-field .cbxform-item-input .cbxform-item-wrap {
+    margin-left: 0;
+    padding: 5px 10px;
+  }
+  .cbxform-inline .cbxform-item-field .cbxform-item-input {
+    width: 100%;
+  }
+  .cbxform .cbx-btn-group .cbx-btn input {
+    margin: 0 0 8px;
+  }
+  .cbxform .cbx-btn input {
+    padding: 8px 2rem;
+  }
+  .cbxform .cbxform-action .cbx-btn input {
+    padding: 10px 20px;
+  }
+  /************** 480 GLOBAl USE***********/
+}
+/* added to style the switch button , need for demo purpose only */
